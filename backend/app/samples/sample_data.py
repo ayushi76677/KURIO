@@ -1,4 +1,4 @@
-from backend.app.schemas.revision import (
+from app.schemas.revision import (
     RevisionPack, LectureMetadata, ExecutiveSummary, RevisionTopic,
     TopicPriority, ConfusionPoint, Flashcard, QuizQuestion, KeyConcept
 )

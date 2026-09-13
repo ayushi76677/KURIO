@@ -1,12 +1,12 @@
 import logging
 from fastapi import APIRouter, File, HTTPException, UploadFile
-from backend.app.config import settings
-from backend.app.schemas.revision import (
+from app.config import settings
+from app.schemas.revision import (
     RevisionPack, QuizSubmission, QuizDiagnosticResult, TopicDiagnostic
 )
-from backend.app.services.pdf_service import pdf_service
-from backend.app.services.gemini_service import gemini_service
-from backend.app.samples.sample_data import SAMPLE_LECTURES
+from app.services.pdf_service import pdf_service
+from app.services.gemini_service import gemini_service
+from app.samples.sample_data import SAMPLE_LECTURES
 
 logger = logging.getLogger(__name__)
 

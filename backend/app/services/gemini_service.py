@@ -3,8 +3,8 @@ import logging
 from typing import Optional
 from google import genai
 from google.genai import types
-from backend.app.config import settings
-from backend.app.schemas.revision import RevisionPack
+from app.config import settings
+from app.schemas.revision import RevisionPack
 
 logger = logging.getLogger(__name__)
 
